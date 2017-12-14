@@ -3,5 +3,6 @@ class ApplicationController < ActionController::Base
 
   def hello
     render html: "Hello boss man, nice dog!"
-  end 
+  end
+
 end
